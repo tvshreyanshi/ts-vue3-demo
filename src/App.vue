@@ -1,10 +1,19 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/login">Home</router-link> |
+    <router-link to="/register">About</router-link>
   </nav>
+  <!-- <log-in-vue /> -->
   <router-view/>
 </template>
+<script>
+// import LogInVue from "./components/Auth/LogIn.vue";
+export default {
+  components: {
+    // LogInVue,
+  }
+}
+</script>
 
 <style>
 #app {
